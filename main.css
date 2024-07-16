@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #0a175c, #6160bc);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#countdown {
+    display: flex;
+    gap: 20px;
+}
+
+.time {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.time span {
+    font-size: 3em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
